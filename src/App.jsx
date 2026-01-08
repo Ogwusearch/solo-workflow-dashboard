@@ -8,11 +8,11 @@ import Navigation from "./components/Navigation";
 import Header from "./components/Header";
 import ProjectSelector from "./components/ProjectSelector";
 import Footer from "./components/Footer";
-import About from "./pages/about";
-import Contact from "./pages/contact";
-import Developer from "./pages/developer";
-import Blog from "./pages/blog";
-import Techy from "./pages/techy";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Developer from "./pages/Developer";
+import Blog from "./pages/Blog";
+import Techy from "./pages/Techy";
 
 import { loadProjects, saveProjects } from "./utils/storage";
 import { exportProjectCSV, exportProjectJSON } from "./utils/export";
